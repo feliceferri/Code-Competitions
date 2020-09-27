@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="Google Kick Start\2020\Round F\ATM.txt" />
+    <None Remove="Google Kick Start\2020\Round F\MetalHarvest.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Google Kick Start\2020\Round F\ATM.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Google Kick Start\2020\Round F\MetalHarvest.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

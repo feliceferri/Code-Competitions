@@ -9,4 +9,11 @@ The idea basically is create a data structure where you can save the Original pl
 Then Sort the data by Number of Cycles and the by Original Place in the line.
 And that's it.
 
-O(N Log N) | O(N)   *Sorting
+O(N Log N) | O(N)   *Because of Sorting
+
+
+Problem #2 - METAL HARVESTING https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48/00000000003f4b8b
+
+As in Problem #1, the code needs to calculate cycles Math.Ceiling(Harvesting Time/Max Robot Harvest Time) in order to pass Test Case 2
+
+O(N Log N) | O(N)   *Because of Sorting
