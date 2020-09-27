@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Code_Competitions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Google Kick Start\2020\Round F\ATM.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Google Kick Start\2020\Round F\ATM.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
