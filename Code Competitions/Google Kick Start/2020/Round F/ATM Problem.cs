@@ -21,6 +21,8 @@ namespace Code_Competitions.Google_Kick_Start._2020.Round_F
                 this.timesNeedsToCycle = TimesNeedsToCycle;
             }
         }
+
+        //O(N Log N) | O(N)
         static void Main(string[] args)
         {
             TextReader reader = new StreamReader(@".\Google Kick Start\2020\Round F\ATM.txt");
@@ -49,6 +51,7 @@ namespace Code_Competitions.Google_Kick_Start._2020.Round_F
                     i++;
                 }
 
+                //O(N Log N)
                 var sorted = list.OrderBy(x => x.timesNeedsToCycle).ThenBy(x => x.originalOrderIndex);
 
                 Console.WriteLine("Case #" + testCase + ": " + string.Join(" ", sorted.Select(x => x.originalOrderIndex).ToList()));

@@ -9,4 +9,4 @@ The idea basically is create a data structure where you can save the Original pl
 Then Sort the data by Number of Cycles and the by Original Place in the line.
 And that's it.
 
-
+O(N Log N) | O(N)   *Sorting
