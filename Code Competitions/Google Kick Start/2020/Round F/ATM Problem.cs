@@ -23,7 +23,7 @@ namespace Code_Competitions.Google_Kick_Start._2020.Round_F
         }
 
         //O(N Log N) | O(N)
-        static void Main(string[] args)
+        static void MainRenamed(string[] args)
         {
             TextReader reader = new StreamReader(@".\Google Kick Start\2020\Round F\ATM.txt");
             //TextReader reader = Console.In;

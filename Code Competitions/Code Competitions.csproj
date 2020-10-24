@@ -9,6 +9,9 @@
   <ItemGroup>
     <None Remove="Google Kick Start\2020\Round F\ATM.txt" />
     <None Remove="Google Kick Start\2020\Round F\MetalHarvest.txt" />
+    <None Remove="Google Kick Start\2020\Round G\cards.txt" />
+    <None Remove="Google Kick Start\2020\Round G\coins.txt" />
+    <None Remove="Google Kick Start\2020\Round G\data1.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +21,21 @@
     <Content Include="Google Kick Start\2020\Round F\MetalHarvest.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Google Kick Start\2020\Round G\cards.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Google Kick Start\2020\Round G\coins.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Google Kick Start\2020\Round G\data1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Google Kick Start\2020\Round G\Coins.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>
