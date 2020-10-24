@@ -7,6 +7,8 @@ using System.Text;
 
 namespace Code_Competitions.Google_Kick_Start._2020.Round_G
 {
+
+    //https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a23
     class Coins
     {
 
@@ -37,6 +39,8 @@ namespace Code_Competitions.Google_Kick_Start._2020.Round_G
                 }
 
                 long maxSum = 0;
+
+                //O(WxH) O(1)
 
                 ///Right half
                 for(int c = 0; c < n ; c++ )
